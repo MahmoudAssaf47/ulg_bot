@@ -1,0 +1,47 @@
+{
+  "name": "discord-bot",
+  "version": "0.1.0",
+  "description": "A simple Discord bot that interacts with an API and responds to ping commands.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "0.17.0",
+    "child_process": "^1.0.2",
+    "discord-html-transcripts": "2.6.1",
+    "discord-modals": "^1.3.9",
+    "discord.js": "^13.17.1",
+    "dotenv": "^16.1.0",
+    "express": "^4.18.2",
+    "fs": "^0.0.2",
+    "gamedig": "^4.0.0",
+    "libsodium-wrappers": "^0.7.15",
+    "moment-timezone": "^0.5.48",
+    "mongoose": "^7.8.6",
+    "node-cmd": "^5.0.0",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^2.6.7",
+    "os-utils": "^0.0.14",
+    "path": "^0.12.7",
+    "quickchart-js": "^3.1.3",
+    "ytdl-core": "^4.11.5",
+    "axios": "^0.30.0",
+    "systeminformation": "^5.25.11",
+    "os": "^0.1.2"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/discord-bot"
+  },
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "bot",
+    "node",
+    "express"
+  ]
+}
